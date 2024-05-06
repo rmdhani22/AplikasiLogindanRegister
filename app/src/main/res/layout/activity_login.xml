@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:text="@string/please_login"
+        android:textSize="24dp"
+        android:textStyle="bold"
+        android:id="@+id/tvpleaselogin"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_below="@+id/tvpleaselogin"
+        android:drawableStart="@drawable/ic_baseline_person_24"
+        android:layout_marginTop="12dp"
+        android:drawablePadding="10dp"
+        android:hint="@string/username1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_below="@+id/etUsername"
+        android:drawablePadding="10dp"
+        android:drawableStart="@drawable/ic_baseline_lock_person_24"
+        android:layout_marginTop="10dp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:textStyle="bold"
+        android:layout_below="@+id/etPassword"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:text="@string/create_new_account"
+        android:id="@+id/tvcreataccount"
+        android:textStyle="italic"
+        android:textAlignment="center"
+        android:layout_below="@+id/btnlogin"
+        android:layout_marginTop="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+
+</RelativeLayout>

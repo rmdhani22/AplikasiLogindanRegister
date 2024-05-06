@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">AplikasiLogindanRegister</string>
+    <string name="name">Name</string>
+    <string name="username">Username</string>
+    <string name="please_login">Please Login</string>
+    <string name="username1">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="create_new_account">Create New Account</string>
+    <string name="please_create_new_account">Please Create New Account</string>
+    <string name="make_your_account">Make Your Account</string>
+    <string name="username3">Username</string>
+    <string name="your_name">Your Name</string>
+    <string name="password3">Password</string>
+    <string name="register">REGISTER</string>
+    <string name="already_have_account_login_here">Already Have Account? Login Here</string>
+    <string name="logout">Logout</string>
+</resources>
